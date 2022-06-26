@@ -12,8 +12,14 @@ $ yarn dev
 # build for production and launch server
 $ yarn build
 $ yarn start
+```
 
-## Description
-A boilerplate template for Nuxt2 and Storyblok which actually works.
+# Description
+An easy to start boilerplate template for Nuxt2 and Storyblok. It implements normal bloks and images as example.
 
-Change the 
+Packages included and working:
+* Nuxt 2 with SSR
+* Storyblok Nuxt
+* Tailwind CSS with Typograph
+* Storyblok Richtext-Renderer
+* Nuxt Fontawesome
