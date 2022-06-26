@@ -3,8 +3,12 @@
 ## Build Setup
 
 ```bash
+#create a .env file in the root folder and add following line:
+$ STORYBLOK_API="<api-key>"
+#replace <api-key> with your preview-key from storyblok
+
 # install dependencies
-$ yarn install || yarn
+$ yarn install
 
 # serve with hot reload at localhost:3000
 $ yarn dev
