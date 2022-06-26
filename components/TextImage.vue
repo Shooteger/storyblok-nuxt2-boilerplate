@@ -1,14 +1,8 @@
 <template>
-  <div
-    v-editable="blok"
-    class="prose my-24 mx-auto">
+  <div v-editable="blok" class="flex justify-evenly mt-20">
     <h1>{{ blok.title }}</h1>
-    <rich-text-renderer
-      :document="blok.text"
-    />
-    <img
-      class="mx-auto"
-      :src="blok.image" />
+    <div class="prose"><rich-text-renderer :document="blok.text" /></div>
+    <div><img class="mx-auto w-96" :src="blok.image.filename" /></div>
   </div>
 </template>
  
@@ -17,8 +11,8 @@ export default {
   props: {
     blok: {
       type: Object,
-      required: true
-    }
-  }
-}
+      required: true,
+    },
+  },
+};
 </script>
