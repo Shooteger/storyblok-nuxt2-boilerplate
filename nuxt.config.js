@@ -35,7 +35,7 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/fontawesome',
-    ["@storyblok/nuxt-2/module", { accessToken: "wXHbxzEPvnmUH7rxzLDXTwtt" }],
+    ["@storyblok/nuxt-2/module", { accessToken: process.env.STORYBLOK_API }],
   ],
 
   fontawesome: {
